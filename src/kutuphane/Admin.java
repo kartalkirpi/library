@@ -22,7 +22,7 @@ public class Admin extends Person {
         for (int i = 0; i < book.size(); i++) {
             if (id.equals(book.get(i).id)) {
                 book.get(i).durum = Free.reserve;
-                System.out.println("Kitabı teslim etmek için 15 gün süreniz vardır.");
+                System.out.println("Kitabı teslim etmek için 15 gün süreniz vardır...");
 
                 myBook.add(book.get(i));
                 break;
